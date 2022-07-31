@@ -7,7 +7,7 @@ from fuzzywuzzy import fuzz, process
 from dbconfig import SQLConfig
 
 
-datas = [['запорожье', 'ЗП'], ['запорожье', 'запор'], ['запорожье', 'Zaporizja'], ['Zaporizja', 'Zaporoje'], ['киев', 'Київ']]
+datas = [['питер', 'СПБ'], ['санкт-петербург', 'санкт питербург'], ['запорожье', 'Zaporizja'], ['Zaporizja', 'Zaporoje'], ['киев', 'Київ']]
 
 # Подключение Базы
 db = SQLConfig('database.db')
@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.ERROR)
 
 
 # Инициализируем бота
-bot = Bot('5139079205:AAEiHfbGHLi4jWj9Rv5KBFB4SyNLtnlKdCU')
+bot = Bot('5483206354:AAFF34JZbOoc6Q0fLAaAfBj9hEMC1LRL6nY')
 dp = Dispatcher(bot)
 print("Бот connected!")
 
