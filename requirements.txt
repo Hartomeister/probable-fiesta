@@ -1,0 +1,4 @@
+aiogram==2.19
+fuzzywuzzy==0.18.0
+Levenshtein==0.18.1
+
